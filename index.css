@@ -1,0 +1,41 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(247, 242, 233);
+}
+
+.slider {
+    max-width: 80%;
+    border: 1px solid black;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.slider__images {
+    text-align: center;
+    display: flex;
+    transition: all ease 1s;
+    width: 950px;
+}
+
+.slider__btn {
+    margin-top: 45px;
+    text-align: center;
+}
+
+.container button {
+    background: none;
+    border: 1px solid black;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container button:hover {
+    background: cornflowerblue;
+    color: cornsilk;
+}
+
+.container button:active {
+    background: none;
+    color: black;
+}
